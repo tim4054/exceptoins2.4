@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         try {
             authentication("12ds", "12", "12");
-            System.out.println("Вход выполнен");
+            System.out.println("Вход выполнен!");
         } catch (WrongLoginException wrongLoginException) {
             System.out.println(wrongLoginException.getMessage());
         } catch (WrongPasswordException wrongPasswordException) {
